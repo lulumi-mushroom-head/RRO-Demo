@@ -1,0 +1,27 @@
+._grid-1-line {
+  display: grid;
+  gap: rem(10) 0;
+}
+
+.d-flex-end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* for header */
+.d-flex-space-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 18px;
+}
+
+.d-flex-sub-btw {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.d-flex-sub-btw .f_l, .d-flex-sub-btw .f_r {
+  display: flex;
+}
